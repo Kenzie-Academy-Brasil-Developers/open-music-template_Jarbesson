@@ -1,1 +1,96 @@
 /* Desenvolva sua estilização aqui ... */
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 80%;
+}
+
+header {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.div__genero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button__filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+
+.conatiner-first {
+    width: 100%;
+}
+
+.div__price {
+    width: 100%;
+}
+
+.price__fist {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.price {
+    display: flex;
+}
+
+
+
+.title-card {
+    padding: 20px 0;
+}
+
+.filter__card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.filter__card img {
+    width: 100%;
+    height: 200px;
+    gap: 20px;
+
+}
+
+.item {
+    background-color: var(--color-grey-8);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 45%;
+    gap: 15px;
+}
+
+@media (width < 500px) {
+    .item {
+        width: 100%;
+    }
+}

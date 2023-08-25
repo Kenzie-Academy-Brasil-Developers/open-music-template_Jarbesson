@@ -1,0 +1,62 @@
+.title-one {
+    color: var(--color-grey-1);
+    font-size: var(--font-1);
+    font-weight: 600;
+}
+
+.title-genero {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: 600;
+}
+
+.title-price {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: 600;
+}
+
+.price {
+    color: var(--color-grey-2);
+    font-size: var(--font-2);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.title-card {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: 600;
+}
+
+.paragraph-item1 {
+    color: var(--color-grey-2);
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.title-item {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: 600;
+    padding: 10px;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.paragraph-price {
+    color: var(--color-grey-1);
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.erro {
+    color: var(--color-grey-1);
+}

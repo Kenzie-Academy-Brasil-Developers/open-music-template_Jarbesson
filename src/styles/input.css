@@ -1,0 +1,24 @@
+#inputRange {
+    width: 100%;
+    appearance: none;
+    background-color: var(--color-brand-1);
+    border-radius: 4px;
+    height: 8px;
+
+}
+
+#inputRange::-webkit-slider-thumb {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-brand-1);
+    border: 6px solid var(--color-brand-1);
+    border-radius: 50%;
+
+
+}
+
+#inputRange::-webkit-slider-thumb:hover {
+    background-color: #fefdff;
+    transition: 0.3s;
+}

@@ -1,0 +1,43 @@
+.button-Dark {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+    font-size: var(--font-2);
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    background-image: var(--img-);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.filter__button {
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-2);
+    padding: 8px;
+    margin: 3px;
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-8);
+}
+
+.filter__button:hover {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+
+}
+
+.buy {
+    background-color: var(--color-grey-7);
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-7);
+    padding: 5px;
+}
+
+.button-item {
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-2);
+    border-radius: 4px;
+    border: none;
+}

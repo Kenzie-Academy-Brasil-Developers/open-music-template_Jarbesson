@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Open Music</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="./src/styles/globalStyles.css" />
-    <link rel="stylesheet" href="./src/styles/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Music</title>
 
-    <!-- SCRIPTS  -->
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-  </body>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/styles/reset.css" />
+  <link rel="stylesheet" href="./src/styles/globalStyles.css" />
+  <link rel="stylesheet" href="./src/styles/index.css" />
+  <link rel="stylesheet" href="./src/styles/title.css">
+  <link rel="stylesheet" href="./src/styles/input.css">
+  <link rel="stylesheet" href="./src/styles/button.css">
+  <link rel="stylesheet" href="./src/styles/darkmode.css">
+
+  <!-- SCRIPTS  -->
+  <script src="./src/scripts/productsData.js" type="module" defer></script>
+  <script src="./src/scripts/theme.js" defer></script>
+  <script src="./src/scripts/index.js" type="module"></script>
+</head>
+
+<body>
+  <header>
+    <h1 class="title-one">Open music</h1>
+    <button class="button-Dark"><img src="https://media.graphassets.com/AWCWFFLPSEWh4lhYs68c"
+        class="theme__img"></button>
+  </header>
+  <main>
+    <section class="section-one">
+      <div class="div__genero">
+        <h2 class="title-genero">Gênero Musical</h2>
+        <ul class="button__filter"></ul>
+      </div>
+
+      <div id="conatiner-first">
+        <div class="div__price">
+          <div class="price__fist">
+            <h2 class="title-price">Definir Preço</h2>
+            <p class="price">Até R$ <span id="price"></span></p>
+          </div>
+
+          <input id="inputRange" type="range" min="0" max="100" step="0.1" value="100">
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section-secont">
+      <h2 class="title-card">Álbuns Encontrados</h2>
+      <ul class="filter__card"></ul>
+    </section>
+  </main>
+</body>
+
 </html>

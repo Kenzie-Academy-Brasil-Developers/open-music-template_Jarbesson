@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
 
 :root {
+  /* --img-: url("https://media.graphassets.com/AWCWFFLPSEWh4lhYs68c"); */
   --color-brand-1: #9747ff;
   --color-grey-0: #15171a;
   --color-grey-1: #212529;
@@ -25,6 +26,8 @@
 }
 
 .dark-mode:root {
+
+  /* --img-: url("https://media.graphassets.com/BgTFGDVvRdymZmzAgg9t"); */
   --color-brand-1: #9747ff;
   --color-grey-9: #15171a;
   --color-grey-8: #212529;
@@ -40,6 +43,7 @@
   --color-disable-fixed: #212529;
   --color-actived-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
+
 }
 
 body {
